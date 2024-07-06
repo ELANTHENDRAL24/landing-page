@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpqRFIBFEja0t3dzIVFp5NWTEdJZUMwgxUeg&s.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1f1f1f; /* Dark header background */
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #79e5e0; /* Light blue text color */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background-image: url('hero-fruits.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #79e5e0;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #1f1f1f; /* Dark background for about section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #79e5e0;
+}
+
+.fruits {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1f1f1f; /* Dark background for fruits section */
+}
+
+.fruit-item {
+    margin-bottom: 40px;
+}
+
+.fruit-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+.fruit-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #79e5e0;
+}
+
+.fruit-item p {
+    font-size: 1.1rem;
+}
+
+.contact {
+    background-color: #333; /* Dark background color for the contact section */
+    color: #fff; /* White text for contrast */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #1f1f1f; /* Dark background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    color: #e0e0e0; /* Light text for the form */
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 5px;
+    background-color: #2c2c2c; /* Dark background for input fields */
+    color: #fff;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #79e5e0; /* Light blue border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(121, 229, 224, 0.5); /* Light blue glow on focus */
+}
+
+.contact button {
+    background-color: #79e5e0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    background-color: #1f1f1f; /* Dark footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
